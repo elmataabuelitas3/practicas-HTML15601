@@ -1,5 +1,4 @@
-/* Content created by TruzzBlogg - Ricardo */
-/* Check our videos on Youtube: https://www.youtube.com/c/TruzzBlogg/videos */
+
 
 function enableDarkMode() {
     let main_body = document.body;
