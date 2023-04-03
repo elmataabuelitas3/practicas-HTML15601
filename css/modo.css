@@ -1,0 +1,67 @@
+/* Content created by TruzzBlogg - Ricardo */
+/* Check our videos on Youtube: https://www.youtube.com/c/TruzzBlogg/videos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    height:  60vh;
+    margin: 50px;
+    backgroutransition: 0.5s ease-in-out;nd-color: #f2f2f2;
+    color: #252525;
+    
+    
+
+}
+
+
+
+.small-txt {
+    margin: 20px 0;
+}
+
+input[type="checkbox"] {
+    position: relative;
+  
+    width: 40px;
+    height: 20px;
+    background-color: #050505;
+    appearance: none;   /* Hides certain features of widgets */ 
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+} 
+
+input[type="checkbox"]:checked {
+    background-color: #04ac2e;
+}
+
+input[type="checkbox"]::before {
+     content: '';
+     position: absolute ;
+     
+     width: 16px;
+     height: 16px;
+     background-color: #f2f2f2;
+     border-radius: 50%;
+     top: 2px;
+     left: 2px;
+     transition: 0.7s ease;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: translateX(20px);
+    
+    
+}
+
+.dark-mode {
+    background : URL(/css/assets/peakpx.jpg);
+    color: #f2f2f2;
+}
+
